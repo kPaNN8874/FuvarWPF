@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="negyesFeladat" Grid.Column="1" Width="150" Height="100" Click="negyesFeladat_Click" >4.feladat</Button>
+        <Button x:Name="otosFeladat" Grid.Column="2" Width="150" Height="100" Click="otosFeladat_Click" >5.Feladat</Button>
+        <Button x:Name="hatosFeladat" Grid.Row="1" Width="150" Height="100" Click="hatosFeladat_Click">6.Feladat</Button>
+        <Button x:Name="nyolcasFeladat" Grid.Row="1" Grid.Column="1" Width="150" Height="100" Click="nyolcasFeladat_Click">8.Feladat</Button>
+        <Button x:Name="harmasFeladat" Width="150" Height="100" Click="harmasFeladat_Click">3.Feladat</Button>
+
+    </Grid>
+</Window>
